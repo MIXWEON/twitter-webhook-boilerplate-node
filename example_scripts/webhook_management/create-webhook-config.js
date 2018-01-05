@@ -12,7 +12,7 @@ var twitter_oauth = {
   token: nconf.get('TWITTER_ACCESS_TOKEN'),
   token_secret: nconf.get('TWITTER_ACCESS_TOKEN_SECRET')
 }
-
+console.log(twitter_oauth);
 var WEBHOOK_URL = 'https://stage.devlabs.tech/webhooks/twitter'
 
 
